@@ -5,6 +5,7 @@ A manager for cell which height is uncertain(dynamic height) and use AutoLayout.
 
 installation
 =
-input YCIDynamicHeightManager folder to your project 
-and #import "YCICellDynamicHeightManager.h"
+1.input YCIDynamicHeightManager folder to your project
+
+2.#import "YCICellDynamicHeightManager.h"
 
