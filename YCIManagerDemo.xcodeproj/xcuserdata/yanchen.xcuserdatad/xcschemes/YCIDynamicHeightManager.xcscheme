@@ -15,9 +15,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1688D9761B54CF1F0032AD48"
-               BuildableName = "YCIDynamicHeightManager.app"
-               BlueprintName = "YCIDynamicHeightManager"
-               ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+               BuildableName = "YCIManagerDemo.app"
+               BlueprintName = "YCIManagerDemo"
+               ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
          <BuildActionEntry
@@ -29,9 +29,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1688D98F1B54CF1F0032AD48"
-               BuildableName = "YCIDynamicHeightManagerTests.xctest"
-               BlueprintName = "YCIDynamicHeightManagerTests"
-               ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+               BuildableName = "YCIManagerDemoTests.xctest"
+               BlueprintName = "YCIManagerDemoTests"
+               ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>
@@ -47,9 +47,9 @@
             <BuildableReference
                BuildableIdentifier = "primary"
                BlueprintIdentifier = "1688D98F1B54CF1F0032AD48"
-               BuildableName = "YCIDynamicHeightManagerTests.xctest"
-               BlueprintName = "YCIDynamicHeightManagerTests"
-               ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+               BuildableName = "YCIManagerDemoTests.xctest"
+               BlueprintName = "YCIManagerDemoTests"
+               ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
             </BuildableReference>
          </TestableReference>
       </Testables>
@@ -57,9 +57,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1688D9761B54CF1F0032AD48"
-            BuildableName = "YCIDynamicHeightManager.app"
-            BlueprintName = "YCIDynamicHeightManager"
-            ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+            BuildableName = "YCIManagerDemo.app"
+            BlueprintName = "YCIManagerDemo"
+            ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
          </BuildableReference>
       </MacroExpansion>
    </TestAction>
@@ -77,9 +77,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1688D9761B54CF1F0032AD48"
-            BuildableName = "YCIDynamicHeightManager.app"
-            BlueprintName = "YCIDynamicHeightManager"
-            ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+            BuildableName = "YCIManagerDemo.app"
+            BlueprintName = "YCIManagerDemo"
+            ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
       <AdditionalOptions>
@@ -96,9 +96,9 @@
          <BuildableReference
             BuildableIdentifier = "primary"
             BlueprintIdentifier = "1688D9761B54CF1F0032AD48"
-            BuildableName = "YCIDynamicHeightManager.app"
-            BlueprintName = "YCIDynamicHeightManager"
-            ReferencedContainer = "container:YCIDynamicHeightManager.xcodeproj">
+            BuildableName = "YCIManagerDemo.app"
+            BlueprintName = "YCIManagerDemo"
+            ReferencedContainer = "container:YCIManagerDemo.xcodeproj">
          </BuildableReference>
       </BuildableProductRunnable>
    </ProfileAction>

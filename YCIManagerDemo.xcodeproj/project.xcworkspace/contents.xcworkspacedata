@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:YCIDynamicHeightManager.xcodeproj">
+      location = "self:/Users/yanchen/Desktop/YCIDemo/YCIManagerDemo.xcodeproj">
    </FileRef>
 </Workspace>

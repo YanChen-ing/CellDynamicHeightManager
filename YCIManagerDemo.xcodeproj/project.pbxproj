@@ -31,7 +31,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		1688D9771B54CF1F0032AD48 /* YCIDynamicHeightManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCIDynamicHeightManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1688D9771B54CF1F0032AD48 /* YCIManagerDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = YCIManagerDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		1688D97B1B54CF1F0032AD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1688D97C1B54CF1F0032AD48 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		1688D97E1B54CF1F0032AD48 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
@@ -41,7 +41,7 @@
 		1688D9851B54CF1F0032AD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		1688D9871B54CF1F0032AD48 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		1688D98A1B54CF1F0032AD48 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
-		1688D9901B54CF1F0032AD48 /* YCIDynamicHeightManagerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCIDynamicHeightManagerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		1688D9901B54CF1F0032AD48 /* YCIManagerDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = YCIManagerDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		1688D9951B54CF1F0032AD48 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1688D9961B54CF1F0032AD48 /* YCIDynamicHeightManagerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = YCIDynamicHeightManagerTests.m; sourceTree = "<group>"; };
 		16CF4CB31B54E02300EBDF15 /* YCICellDynamicHeightManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YCICellDynamicHeightManager.h; sourceTree = "<group>"; };
@@ -74,8 +74,8 @@
 		1688D96E1B54CF1F0032AD48 = {
 			isa = PBXGroup;
 			children = (
-				1688D9791B54CF1F0032AD48 /* YCIDynamicHeightManager */,
-				1688D9931B54CF1F0032AD48 /* YCIDynamicHeightManagerTests */,
+				1688D9791B54CF1F0032AD48 /* YCIManagerDemo */,
+				1688D9931B54CF1F0032AD48 /* YCIManagerDemoTests */,
 				1688D9781B54CF1F0032AD48 /* Products */,
 			);
 			sourceTree = "<group>";
@@ -83,13 +83,13 @@
 		1688D9781B54CF1F0032AD48 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				1688D9771B54CF1F0032AD48 /* YCIDynamicHeightManager.app */,
-				1688D9901B54CF1F0032AD48 /* YCIDynamicHeightManagerTests.xctest */,
+				1688D9771B54CF1F0032AD48 /* YCIManagerDemo.app */,
+				1688D9901B54CF1F0032AD48 /* YCIManagerDemoTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		1688D9791B54CF1F0032AD48 /* YCIDynamicHeightManager */ = {
+		1688D9791B54CF1F0032AD48 /* YCIManagerDemo */ = {
 			isa = PBXGroup;
 			children = (
 				16CF4CB21B54E02300EBDF15 /* YCIDynamicHeightManager */,
@@ -107,7 +107,7 @@
 				1688D9891B54CF1F0032AD48 /* LaunchScreen.xib */,
 				1688D97A1B54CF1F0032AD48 /* Supporting Files */,
 			);
-			path = YCIDynamicHeightManager;
+			path = YCIManagerDemo;
 			sourceTree = "<group>";
 		};
 		1688D97A1B54CF1F0032AD48 /* Supporting Files */ = {
@@ -119,13 +119,13 @@
 			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
-		1688D9931B54CF1F0032AD48 /* YCIDynamicHeightManagerTests */ = {
+		1688D9931B54CF1F0032AD48 /* YCIManagerDemoTests */ = {
 			isa = PBXGroup;
 			children = (
 				1688D9961B54CF1F0032AD48 /* YCIDynamicHeightManagerTests.m */,
 				1688D9941B54CF1F0032AD48 /* Supporting Files */,
 			);
-			path = YCIDynamicHeightManagerTests;
+			path = YCIManagerDemoTests;
 			sourceTree = "<group>";
 		};
 		1688D9941B54CF1F0032AD48 /* Supporting Files */ = {
@@ -148,9 +148,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		1688D9761B54CF1F0032AD48 /* YCIDynamicHeightManager */ = {
+		1688D9761B54CF1F0032AD48 /* YCIManagerDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1688D99A1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIDynamicHeightManager" */;
+			buildConfigurationList = 1688D99A1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIManagerDemo" */;
 			buildPhases = (
 				1688D9731B54CF1F0032AD48 /* Sources */,
 				1688D9741B54CF1F0032AD48 /* Frameworks */,
@@ -160,14 +160,14 @@
 			);
 			dependencies = (
 			);
-			name = YCIDynamicHeightManager;
+			name = YCIManagerDemo;
 			productName = YCIDynamicHeightManager;
-			productReference = 1688D9771B54CF1F0032AD48 /* YCIDynamicHeightManager.app */;
+			productReference = 1688D9771B54CF1F0032AD48 /* YCIManagerDemo.app */;
 			productType = "com.apple.product-type.application";
 		};
-		1688D98F1B54CF1F0032AD48 /* YCIDynamicHeightManagerTests */ = {
+		1688D98F1B54CF1F0032AD48 /* YCIManagerDemoTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1688D99D1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIDynamicHeightManagerTests" */;
+			buildConfigurationList = 1688D99D1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIManagerDemoTests" */;
 			buildPhases = (
 				1688D98C1B54CF1F0032AD48 /* Sources */,
 				1688D98D1B54CF1F0032AD48 /* Frameworks */,
@@ -178,9 +178,9 @@
 			dependencies = (
 				1688D9921B54CF1F0032AD48 /* PBXTargetDependency */,
 			);
-			name = YCIDynamicHeightManagerTests;
+			name = YCIManagerDemoTests;
 			productName = YCIDynamicHeightManagerTests;
-			productReference = 1688D9901B54CF1F0032AD48 /* YCIDynamicHeightManagerTests.xctest */;
+			productReference = 1688D9901B54CF1F0032AD48 /* YCIManagerDemoTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
@@ -201,7 +201,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 1688D9721B54CF1F0032AD48 /* Build configuration list for PBXProject "YCIDynamicHeightManager" */;
+			buildConfigurationList = 1688D9721B54CF1F0032AD48 /* Build configuration list for PBXProject "YCIManagerDemo" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -214,8 +214,8 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				1688D9761B54CF1F0032AD48 /* YCIDynamicHeightManager */,
-				1688D98F1B54CF1F0032AD48 /* YCIDynamicHeightManagerTests */,
+				1688D9761B54CF1F0032AD48 /* YCIManagerDemo */,
+				1688D98F1B54CF1F0032AD48 /* YCIManagerDemoTests */,
 			);
 		};
 /* End PBXProject section */
@@ -268,7 +268,7 @@
 /* Begin PBXTargetDependency section */
 		1688D9921B54CF1F0032AD48 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = 1688D9761B54CF1F0032AD48 /* YCIDynamicHeightManager */;
+			target = 1688D9761B54CF1F0032AD48 /* YCIManagerDemo */;
 			targetProxy = 1688D9911B54CF1F0032AD48 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -329,7 +329,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
@@ -366,7 +366,7 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
@@ -377,9 +377,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YCIDynamicHeightManager/Info.plist;
+				INFOPLIST_FILE = YCIManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YCIManagerDemo;
 			};
 			name = Debug;
 		};
@@ -387,9 +388,10 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				INFOPLIST_FILE = YCIDynamicHeightManager/Info.plist;
+				INFOPLIST_FILE = YCIManagerDemo/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_NAME = YCIManagerDemo;
 			};
 			name = Release;
 		};
@@ -405,10 +407,10 @@
 					"DEBUG=1",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = YCIDynamicHeightManagerTests/Info.plist;
+				INFOPLIST_FILE = YCIManagerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIDynamicHeightManager.app/YCIDynamicHeightManager";
+				PRODUCT_NAME = YCIManagerDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIManagerDemo.app/YCIManagerDemo";
 			};
 			name = Debug;
 		};
@@ -420,17 +422,17 @@
 					"$(SDKROOT)/Developer/Library/Frameworks",
 					"$(inherited)",
 				);
-				INFOPLIST_FILE = YCIDynamicHeightManagerTests/Info.plist;
+				INFOPLIST_FILE = YCIManagerDemoTests/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIDynamicHeightManager.app/YCIDynamicHeightManager";
+				PRODUCT_NAME = YCIManagerDemoTests;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/YCIManagerDemo.app/YCIManagerDemo";
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1688D9721B54CF1F0032AD48 /* Build configuration list for PBXProject "YCIDynamicHeightManager" */ = {
+		1688D9721B54CF1F0032AD48 /* Build configuration list for PBXProject "YCIManagerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1688D9981B54CF1F0032AD48 /* Debug */,
@@ -439,7 +441,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1688D99A1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIDynamicHeightManager" */ = {
+		1688D99A1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIManagerDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1688D99B1B54CF1F0032AD48 /* Debug */,
@@ -448,7 +450,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1688D99D1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIDynamicHeightManagerTests" */ = {
+		1688D99D1B54CF1F0032AD48 /* Build configuration list for PBXNativeTarget "YCIManagerDemoTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1688D99E1B54CF1F0032AD48 /* Debug */,
