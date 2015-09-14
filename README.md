@@ -15,4 +15,4 @@ installation
 
   在ViewController及cell中引入,并在cell中实现协议方法即可.
   
-  ![](https://github.com/YanChen-ing/CellDynamicHeightManager/dynamic-screenshot.gif)
+  ![](https://github.com/YanChen-ing/CellDynamicHeightManager/raw/master/dynamic-screenshot.gif)
